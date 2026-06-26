@@ -2,6 +2,8 @@
 
 Find **sibling-leftover** bugs in a repo's recent merged PRs.
 
+> マージ済みPRから「片側だけ直して対称な双子バグを残した箇所」(encode.ts直してdecode.ts忘れ / en.json追加してja.json忘れ 等)を見つけるCLI。`gh`認証済み+Nodeのみ、依存ゼロ。
+
 A sibling-leftover is the second half of a symmetric fix that nobody made. Someone
 escapes user input in `encode.ts` but forgets `decode.ts`. Someone adds a string to
 `en.json` and never touches `ja.json`. Someone fixes the `left` handler and leaves
