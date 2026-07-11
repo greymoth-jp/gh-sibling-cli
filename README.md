@@ -1,5 +1,10 @@
 # gh-sibling
 
+> **Moved.** This CLI now lives in
+> [sibling-leftover-dataset/cli](https://github.com/greymoth-jp/sibling-leftover-dataset/tree/main/cli),
+> alongside the hand-verified dataset it was built from. This repo is archived;
+> the code and README below are kept as-is for history.
+
 Find **sibling-leftover** bugs in a repo's recent merged PRs.
 
 > マージ済みPRから「片側だけ直して対称な双子バグを残した箇所」(encode.ts直してdecode.ts忘れ / en.json追加してja.json忘れ 等)を見つけるCLI。`gh`認証済み+Nodeのみ、依存ゼロ。
