@@ -11,7 +11,9 @@ escapes user input in `encode.ts` but forgets `decode.ts`. Someone adds a string
 
 These are some of the easiest first contributions in open source: the fix already
 exists, you just mirror it onto the side they missed. On 2026-06-26 I opened 28 OSS
-PRs this exact way. This tool is the part I was doing by eye, made repeatable.
+PRs this exact way. This tool is the part I was doing by eye, made repeatable. The
+pairs it looks for are catalogued by hand in a companion dataset,
+[sibling-leftover-dataset](https://github.com/greymoth-jp/sibling-leftover-dataset).
 
 ## Use
 
